@@ -1,0 +1,120 @@
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.user-details {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: 20px;
+  padding: 10px;
+  height:auto;
+}
+
+.place-order {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  width: 25%;
+  height: min-content;
+  position: sticky;
+  top: 0;
+
+}
+
+.shipping {
+  display: flex;
+  flex-direction: column;
+  /* height: 30%; */
+  padding: 10px;
+}
+
+.user-details h2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  /* height: 30%; */
+  padding: 10px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.review {
+  /* height: auto; */
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  align-self: center;
+  width: 55%;
+}
+
+.checkout-items {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+}
+.checkout-img {
+  width: 15%;
+  margin-left: 20px;
+}
+
+.checkout-img > img {
+  max-width: 100%;
+}
+
+.checkout-details {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.checkout-totals {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+
+.checkout-totals > div {
+  width: 50%;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.checkout-address {
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+
+.order-button {
+  align-self: center;
+  border: none;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 1rem 4rem;
+}
+
+.button-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}

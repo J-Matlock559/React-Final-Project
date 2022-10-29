@@ -1,0 +1,33 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  min-height: 500px;
+  padding: 1rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-image > img {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  max-height: 300px;
+}
+
+.product-details {
+  margin-top: 3rem;
+  max-height: 23rem;
+  text-decoration: none;
+}
+
+.product-details > h2 {
+  margin-top: 1rem;
+}
