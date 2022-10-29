@@ -38,7 +38,7 @@ function ProductPage({
           <p>Category: {category}</p>
         </div>
         <div className="product-page-desc">
-          <h2>${price.toFixed(2)}</h2>
+          {/* <h2>${price.toFixed(2)}</h2> */}
           <p>{desc}</p>
           <button
             onClick={() => {

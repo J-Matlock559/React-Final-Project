@@ -12,7 +12,6 @@ import ProductPage from "./Components/ProductPage";
 import ShoppingCart from "./Components/ShoppingCart";
 import Checkout from "./Components/Checkout";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -20,9 +19,6 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [addItem, setAddItem] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-
-  let rating;
-  let price;
 
   const updateCart = (item) => {
     const newCart = [...addItem];
@@ -105,8 +101,8 @@ function App() {
                   category={singleProduct.category}
                   desc={singleProduct.description}
                   image={singleProduct.image}
-                  rating={singleProduct.rating.rate}
-                  count={singleProduct.rating.count}
+                  // rating={singleProduct.rating.rate}
+                  // count={singleProduct.rating.count}
                   updateCart={updateCart}
                   addItem={addItem}
                 />
